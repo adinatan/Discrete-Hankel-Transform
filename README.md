@@ -25,7 +25,14 @@ Inputs:
   Fgrid  - The transformed grid
 
 
+
+
+
    Ver 1 (2020-09-07)  Adi Natan (natan@stanford.edu)
+
+
+
+
 
 
 Example: generate array of signals in q range, pad zeros to N
