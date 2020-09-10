@@ -10,18 +10,23 @@ This code is based on: Baddour, N. and Chouinard, U., 2017. Journal of Open Rese
 Inputs:
 
    n      - the order of the Hankel Transform
+  
   data   - the input data, a vector of size (q x 1), or a 2D array (q x n)
+  
   q      - the grid points of vec
+  
   N      - If the length of data is less than N, then data is padded with trailing zeros to length N.
   
+ 
  Outputs:
 
   F      - The transfomred vector
+  
   Fgrid  - The transformed grid
 
 
-   Ver 1 (2020-09-07)
-   Adi Natan (natan@stanford.edu)
+   Ver 1 (2020-09-07)  Adi Natan (natan@stanford.edu)
+
 
 Example: generate array of signals in q range, pad zeros to N
 
